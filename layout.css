@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    margin: 1%;
+}
+h4{
+    text-align: center;
+    margin: 30px 0px;
+}
+code{
+    display: inline-block;
+    background: orange;
+    padding: 10px 10px;
+    color: white;
+}
+.layout1 header{
+    display: block;
+    background: #BDDDEB;
+}
+.layout1 article{
+    background: #BDDDEB;
+    width: 56%;
+    float: left;
+    padding: 30px 10px;
+}
+.layout1 aside {
+    background: #BDDDEB;
+    padding: 30px 10px;
+
+    width: 40%;
+    float: right;
+}
+.layout1 footer {
+    background: #BDDDEB;
+    padding: 30px 10px;
+    clear: both;
+}
+
+.layout2 header{
+    width: 98%;
+    background: #BDDDEB;
+}
+.layout2 header .logo{
+    width: 20%;
+    float: left;
+    margin: 0;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(82, 80, 80);
+
+}
+.layout2 header nav{
+    width: 75%;
+    float: right;
+    margin: 0;
+}
+.layout2 nav ul li{
+    display: inline-block;
+      
+}
+.layout2 a{
+    color: #3CA1A7;
+}
+.layout2 header::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.layout2 article{
+    width: 48%;
+    padding: 30px 10px;
+
+    float: left;
+    background: #BDDDEB;
+
+}
+.sidenav{
+    float: left;
+    width: 23%;
+    padding: 30px 10px;
+
+    background: #BDDDEB;
+
+}
+.sidebar{
+    float: right;
+    width: 23%;
+    padding: 30px 10px;
+
+    background: #BDDDEB;
+
+}
+.layout2 footer{
+    clear: both;
+    background: #BDDDEB;
+    padding: 30px 10px;
+
+
+}
+
+
+.layout3 header{
+    display: block;
+    padding: 10px 40px;
+    background-color: #BDDDEB;
+}
+.layout3 nav ul li{
+    display: inline-block;
+}
+.logor{
+    width: 20%;
+    float: right;
+    color: rgb(110, 106, 100);
+    font-size: 20px;
+
+}
+.layout3 header nav{
+    width: 85%;
+}
+.adiv{
+    display: flex;
+}
+.layout3 footer{
+    background-color: #BDDDEB;
+    padding: 30px 10px;
+
+}
+.layout3 article{
+    padding: 30px 10px;
+
+    background-color: #BDDDEB;
+}
+
+
+
+@media screen and (max-width:768){
+
+   
+    .layout2 aside {
+        float: none;
+        display: 100%;
+        margin: 2%;
+    }
+
+    
+}
